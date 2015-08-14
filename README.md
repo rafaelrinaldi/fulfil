@@ -17,6 +17,23 @@ var woops = require('woops');
 woops('batueiful', words); // beautiful
 ```
 
+## API
+
+## `woops(input, [suggestions])`
+
+### `input`
+
+*Required*  
+Type: `string`  
+
+Word whose spelling should be checked.
+
+### `suggestions`
+
+Type: `array`  
+
+List of available suggestions.
+
 ## License
 
 MIT © [Rafael Rinaldi](http://rinaldi.io)
