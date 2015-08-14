@@ -11,7 +11,7 @@ $ npm install woops --save
 ## Usage
 
 ```javascript
-var words = require('superb');
+var words = require('superb').words;
 var woops = require('woops');
 
 woops('batueiful', words); // beautiful

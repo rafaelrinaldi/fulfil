@@ -1,0 +1,32 @@
+{
+  "name": "woops",
+  "version": "1.0.0",
+  "description": "Simple spelling suggestion using the Levenshtein distance algorithm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelrinaldi/woops.git"
+  },
+  "keywords": [
+    "woops",
+    "search",
+    "suggestion",
+    "spelling",
+    "grammar",
+    "typo",
+    "fix"
+  ],
+  "author": "Rafael Rinaldi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelrinaldi/woops/issues"
+  },
+  "homepage": "https://github.com/rafaelrinaldi/woops#readme",
+  "devDependencies": {
+    "superb": "^1.1.4",
+    "tape": "^4.1.0"
+  }
+}
