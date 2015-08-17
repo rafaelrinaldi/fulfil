@@ -1,26 +1,5 @@
 'use strict';
 
-var Levenshtein = require('levenshtein');
+'use strict';
 
-function distance(word, comparison) {
-  return new Levenshtein(word, comparison).distance;
-}
-
-function woops(input, suggestions) {
-  var matches = [];
-
-  suggestions.forEach(function(suggestion) {
-    matches.push({
-      suggestion: suggestion,
-      distance: distance(input, suggestion)
-    });
-  });
-
-  matches.sort(function(current, previous) {
-    return current.distance - previous.distance;
-  });
-
-  return matches[0].suggestion;
-}
-
-module.exports = woops;
+module.exports = require('./src/fulfil');
