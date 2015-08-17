@@ -1,5 +1,5 @@
 {
-  "name": "woops",
+  "name": "fulfil",
   "version": "1.0.0",
   "description": "Simple spelling suggestion using the Levenshtein distance algorithm.",
   "main": "index.js",
@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rafaelrinaldi/woops.git"
+    "url": "git+https://github.com/rafaelrinaldi/fulfil.git"
   },
   "keywords": [
-    "woops",
+    "fulfil",
     "search",
     "suggestion",
     "spelling",
@@ -22,9 +22,9 @@
   "author": "Rafael Rinaldi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rafaelrinaldi/woops/issues"
+    "url": "https://github.com/rafaelrinaldi/fulfil/issues"
   },
-  "homepage": "https://github.com/rafaelrinaldi/woops#readme",
+  "homepage": "https://github.com/rafaelrinaldi/fulfil#readme",
   "devDependencies": {
     "superb": "^1.1.4",
     "tape": "^4.1.0"
