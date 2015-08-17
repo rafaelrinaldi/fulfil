@@ -1,11 +1,11 @@
 'use strict';
 
-var woops = require('./');
+var fulfil = require('./');
 var test = require('tape');
 var words = require('superb').words;
 
-test('woops', function(t) {
-  t.deepEqual(woops('batueiful', words), 'beautiful', 'should suggest best match for the given input');
-  t.deepEqual(woops('awesome', words), 'awesome', 'when there is a perfect match, it should be suggested');
+test('fulfil', function(t) {
+  t.deepEqual(fulfil('batueiful', words).shift(), 'beautiful', 'should suggest best match for the given input');
+  t.deepEqual(fulfil('awesome', words).shift(), 'awesome', 'when there is a perfect match, it should be suggested');
   t.end();
 });
