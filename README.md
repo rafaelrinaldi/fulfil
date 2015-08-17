@@ -32,7 +32,7 @@ Word whose spelling should be checked.
 
 Type: `array`  
 
-List of available suggestions.
+List of suggestions available.
 
 ## License
 
