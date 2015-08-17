@@ -1,32 +1,36 @@
-# woops [![Build Status](https://travis-ci.org/rafaelrinaldi/woops.svg?branch=master)](https://travis-ci.org/rafaelrinaldi/woops)
+# fulfil [![Build Status](https://travis-ci.org/rafaelrinaldi/fulfil.svg?branch=master)](https://travis-ci.org/rafaelrinaldi/fulfil)
 
-> Simple spelling suggestion using the [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) algorithm.
+> Simple search suggestion using the [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) algorithm.
 
 ## Install
 
 ```sh
-$ npm install woops --save
+$ npm install fulfil --save
 ```
 
 ## Usage
 
 ```javascript
 var words = require('superb').words;
-var woops = require('woops');
+var fulfil = require('fulfil');
 
-woops('batueiful', words); // beautiful
+fulfil('batueiful', words).shift(); // beautiful
 ```
 
 ## API
 
-## `woops(input, [suggestions])`
+## `fulfil(input, [suggestions])`
 
-### `input`
+Return: `array`  
+
+An array of suggestions sorted by the closest matches found.
+
+### `keyword`
 
 *Required*  
 Type: `string`  
 
-Word whose spelling should be checked.
+Word used to lookup for a suggestion.
 
 ### `suggestions`
 
