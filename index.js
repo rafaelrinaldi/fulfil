@@ -1,7 +1,5 @@
 'use strict';
 
-// TODO: https://www.npmjs.com/package/levenshtein
-
 var Levenshtein = require('levenshtein');
 
 function distance(word, comparison) {
