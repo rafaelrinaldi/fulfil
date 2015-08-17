@@ -1,7 +1,7 @@
 {
   "name": "fulfil",
   "version": "1.0.0",
-  "description": "Simple spelling suggestion using the Levenshtein distance algorithm.",
+  "description": "Simple search suggestion using the Levenshtein distance algorithm.",
   "main": "index.js",
   "scripts": {
     "test": "tape test.js"
